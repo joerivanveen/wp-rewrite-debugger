@@ -2,15 +2,15 @@
 declare( strict_types=1 );
 /*
 Plugin Name: WP rewrite debugger
-Plugin URI: https:///joerivanveen.com
+Plugin URI: https://github.com/joerivanveen/wp-rewrite-debugger
 Description: Debug rewrite issues by logging before and after situations
 Author: Joeri van Veen
-Author URI: https://joerivanveen.com
+Author URI: https://wp-developer.eu
 Version: 0.0.2
 */
 defined( 'ABSPATH' ) || die();
 // This is plugin nr. 13 by Ruige hond. It identifies as: ruigehond013.
-define( 'RUIGEHOND013_VERSION', '0.0.2' );
+const RUIGEHOND013_VERSION = '0.0.2';
 // Startup the plugin
 add_action( 'parse_request', 'ruigehond013' );
 //
